@@ -32,17 +32,26 @@
 
         <main>
 
-            <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
-            <h4>En plein centre-ville ou en pleine nature</h4>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <h2>En plein centre-ville ou en pleine nature</h2>
 
             <!-- Search form -->
             <div class="search_zone">
 
-                <img class="search_logo" src="./images/logo/localisation_logo.png" alt="Logo de logo_localisation">
+                <a href="#" class="my_location_button">
+                    <img class="location_logo" src="./images/logo/localisation_logo.png" alt="Logo de localisation">
+                </a>
 
                 <input class="search_form" type="search" placeholder="Marseille, France">
 
-                <input class="search_button" type="button" value="Rechercher">
+                <a href="#" class="search_button">
+                    <img src="./images/logo/search_button.png" alt="Bouton rechercher">
+                </a>
+
+                <a href="#" class="small_search_button">
+                    <img src="./images/logo/small_search_logo.png" alt="Bouton rechercher">
+                </a>
+
 
             </div>
 
@@ -52,25 +61,32 @@
 
                 <h3>Filtres</h3>
 
-                <a class="filter_button" href="#">
-                    <img src="./images/logo/economic_logo.png" alt="Logo billet">
-                    <input type="button" value="Economique">
-                </a>
+                <div class="filter_zone_button">
 
-                <a class="filter_button" href="#">
-                    <img src="./images/logo/family_logo.png" alt="Logo familial">
-                    <input type="button" value="Familial">
-                </a>
+                    <div class="filter_button_1_2">
+                        <a class="filter_button" href="#">
+                            <img src="./images/logo/economic_logo.png" alt="Logo billet">
+                            <p>Economique</p>
+                        </a>
 
-                <a class="filter_button" href="#">
-                    <img src="./images/logo/heart_logo.png" alt="Logo coeur">
-                    <input type="button" value="Romantique">
-                </a>
+                        <a class="filter_button" href="#">
+                            <img src="./images/logo/family_logo.png" alt="Logo familial">
+                            <p>Familial</p>
+                        </a>
+                    </div>
 
-                <a class="filter_button" href="#">
-                    <img src="./images/logo/fire_logo.png" alt="Logo flamme">
-                    <input type="button" value="Nos pépites">
-                </a>
+                    <div class="filter_button_3_4">
+                        <a class="filter_button" href="#">
+                            <img src="./images/logo/heart_logo.png" alt="Logo coeur">
+                            <p>Romantique</p>
+                        </a>
+
+                        <a class="filter_button" href="#">
+                            <img src="./images/logo/fire_logo.png" alt="Logo flamme">
+                            <p>Nos pépites</p>
+                        </a>
+                    </div>
+                </div>
 
             </div>
 
@@ -224,12 +240,12 @@
                     <div class="afficher_plus_button">
                         <a href="#">Afficher plus</a>
                     </div>
-
-
-
-                    <!-- "Populaires" cards zone -->
-
                 </section>
+
+
+
+                <!-- "Populaires" cards zone -->
+
                 <section class="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
@@ -302,7 +318,7 @@
 
 
             <!-- Activities cards zone -->
-            <h2>Activités à Marseille</h2>
+            <h1>Activités à Marseille</h1>
             <div class="activities_zone">
 
                 <a href="#">
@@ -317,14 +333,14 @@
                 </a>
 
                 <a href="#">
-                <article class="card">
-                    <img src="./images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
-                    <div class="card-content">
-                        <div class="card-txt">
-                            <h3 class="card-title">Fort de Pomègues</h3>
+                    <article class="card">
+                        <img src="./images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
+                        <div class="card-content">
+                            <div class="card-txt">
+                                <h3 class="card-title">Fort de Pomègues</h3>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
                 </a>
 
                 <a href="#">
@@ -357,7 +373,7 @@
         <footer>
 
             <div>
-                <h3>A propos</h3>
+                <h3>À propos</h3>
                 <a href="#">Fonctionnement du site</a>
                 <a href="#">Conditions générales</a>
                 <a href="#">Données et confidentialité</a>
