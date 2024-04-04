@@ -1,10 +1,10 @@
-# The first OpenClassrooms web developer training project
+# OpenClassrooms training project - HTML/CSS
 
-## Specifications document :
+## Instructions :
 Create the homepage of Booki website, a fictional travel agency.
 
-## Languages used :
-HTML / CSS
+## Skills :
+HTML/CSS
 
 ## View online :
-https://sylvainjeanpierre.github.io/Projet2-OC-HTML-CSS/
+https://sylvainjeanpierre.github.io/Booki/
